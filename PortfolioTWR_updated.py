@@ -477,7 +477,6 @@ def build_market_cap_pie_image(allocation_data):
         textprops={"fontsize": 9}
     )
     
-    )
     ax.axis("equal")
 
     buffer = BytesIO()
