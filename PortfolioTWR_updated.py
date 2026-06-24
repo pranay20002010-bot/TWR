@@ -699,7 +699,6 @@ def build_pdf_report(
             ]
         )
     )
-    story.append(cash_flow_table)
 
     story.extend(
         [
@@ -1321,7 +1320,6 @@ if input_file:
         ledger.iloc[-1]["Cash"],
         summary,
         chart,
-        cash_flow_table,
         holdings_table,
         market_cap_allocation
     )
