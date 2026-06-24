@@ -1319,6 +1319,7 @@ if input_file:
         ledger.iloc[-1]["Portfolio Value"],
         ledger.iloc[-1]["Cash"],
         summary,
+        cash_flow_table
         chart,
         holdings_table,
         market_cap_allocation
