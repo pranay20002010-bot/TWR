@@ -476,9 +476,7 @@ def build_market_cap_pie_image(allocation_data):
         wedgeprops={"edgecolor": "white", "linewidth": 1},
         textprops={"fontsize": 9}
     )
-    ax.set_title(
-        "Market Cap Allocation ",
-        fontsize=11
+    
     )
     ax.axis("equal")
 
@@ -504,8 +502,7 @@ def build_market_cap_pie_figure(allocation_data):
         names="Bucket",
         values="Value",
         color="Bucket",
-        color_discrete_map=PIE_COLOR_MAP,
-        title="Market Cap Allocation "
+        color_discrete_map=PIE_COLOR_MAP
     )
     fig.update_traces(
         textposition="inside",
