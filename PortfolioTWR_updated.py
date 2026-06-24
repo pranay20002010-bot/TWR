@@ -477,7 +477,7 @@ def build_market_cap_pie_image(allocation_data):
         textprops={"fontsize": 9}
     )
     ax.set_title(
-        "Market Cap Allocation (Excluding Cash)",
+        "Market Cap Allocation ",
         fontsize=11
     )
     ax.axis("equal")
@@ -505,7 +505,7 @@ def build_market_cap_pie_figure(allocation_data):
         values="Value",
         color="Bucket",
         color_discrete_map=PIE_COLOR_MAP,
-        title="Market Cap Allocation (Excluding Cash)"
+        title="Market Cap Allocation "
     )
     fig.update_traces(
         textposition="inside",
